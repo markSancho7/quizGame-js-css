@@ -25,3 +25,57 @@ body {
   margin: 0;
   /* background-image: url(../assets/images/sleep-cat.jpeg); */
 }
+
+.container{
+  width: 90%;
+  border: solid black;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: rgb(247, 229, 196);
+}
+.textHeader{
+  text-align: center;
+  padding: 30px;
+}
+.containerButtons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.button{
+  border: solid black;
+  width: 30%;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: orange;
+  font-size: x-large;
+}
+.finalResult{
+  text-align: center;
+  font-size: large;
+  width: 90%;
+  border: solid black;
+  margin: 30px auto;
+  padding: 30px 0px;
+  border-radius: 10px;
+  background-color: rgb(247, 229, 196);
+}
+.finalResult span{
+  display: block;
+  margin-top: 15px;
+}
+.finalResult p{
+  display: inline;
+}
+.show{
+  display: none;
+}
+.red{
+  color: red;
+}
+.green{
+  color:green
+}
